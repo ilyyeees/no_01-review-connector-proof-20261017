@@ -1,0 +1,27 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/ilyyeees/no_01-review-connector-proof-20261017@main/cimd-tokenx-v2.json",
+  "client_name": "No01 Basecamp CIMD token-exchange boundary probe 20261017 v2",
+  "redirect_uris": [
+    "http://127.0.0.1/callback"
+  ],
+  "grant_types": [
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "response_types": [],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "ES256",
+  "scope": "mcp read full",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "EC",
+        "x": "OuceEwXbJek_7PCMau5uRLUd9D0wl1nRf_nD3c--0BE",
+        "y": "VpeE5p3D1fa2r69FCPpvoBuZ9S8IUHxjdKTOvSZElts",
+        "crv": "P-256",
+        "kid": "f25b85e4-51d3-4e45-92f1-26cde2b69ebb",
+        "use": "sig",
+        "alg": "ES256"
+      }
+    ]
+  }
+}
