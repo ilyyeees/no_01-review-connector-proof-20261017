@@ -1,5 +1,5 @@
 {
-  "client_id": "https://ilyyeees.github.io/no_01-review-connector-proof-20261017/cimd-tokenx.json",
+  "client_id": "https://cdn.jsdelivr.net/gh/ilyyeees/no_01-review-connector-proof-20261017@main/cimd-tokenx.json",
   "client_name": "No01 Basecamp CIMD token-exchange boundary probe 20261017",
   "redirect_uris": [
     "http://127.0.0.1/callback"
