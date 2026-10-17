@@ -1,0 +1,17 @@
+name: no_01 controlled non-operator review
+
+on:
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+
+jobs:
+  submit-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit controlled COMMENT review as github-actions bot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api             --method POST             repos/${{ github.repository }}/pulls/1/reviews             -f event=COMMENT             -f body='NO01_NONOP_REVIEW_CONTROL_20261017_3B7A9E'
