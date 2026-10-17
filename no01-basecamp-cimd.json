@@ -1,5 +1,5 @@
 {
-  "client_id": "https://raw.githubusercontent.com/ilyyeees/no_01-review-connector-proof-20261017/main/no01-basecamp-cimd.json",
+  "client_id": "https://ilyyeees.github.io/no_01-review-connector-proof-20261017/no01-basecamp-cimd.json",
   "client_name": "no01 Basecamp PAR CIMD probe",
   "redirect_uris": [
     "http://127.0.0.1:49196/callback"
